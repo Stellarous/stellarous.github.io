@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const output = document.getElementById('markdown-output');
 
     // List of markdown files
-    const posts = ['TEST.md', 'post2.md', 'post3.md']; // Add your post filenames here
+    const posts = ['post1.md', 'post2.md', 'post3.md']; // Add your post filenames here
 
     // Create list items for each post
     posts.forEach(post => {
