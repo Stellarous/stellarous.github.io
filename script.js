@@ -6,8 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // List of posts with category
     const posts = [
         { title: 'First Tech Post', path: 'posts/tech/post1.md', category: 'tech' },
+        { title: 'Second Tech Post', path: 'posts/tech/post2.md', category: 'tech' },
         { title: 'First Life Post', path: 'posts/life/post1.md', category: 'life' },
-        // Add more posts as needed
+        { title: 'Second Life Post', path: 'posts/life/post2.md', category: 'life' },
     ];
 
     // Function to display posts based on category
