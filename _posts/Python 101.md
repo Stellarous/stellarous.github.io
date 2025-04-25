@@ -1,6 +1,6 @@
 ---
-"title:": Python 101
-"date:": 2025-04-26
+title: Python 101
+date: 2025-04-26
 ---
 
 ### Arithmetic operators:
