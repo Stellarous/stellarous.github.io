@@ -1,0 +1,117 @@
+---
+"title:": Python 101
+"date:": 2025-04-26
+---
+
+### Arithmetic operators:
+
+```python
+3 + 2 #addition
+3 - 2 #subtraction
+2 * 3 #multiplication
+3 / 3 # devision
+
+2 ** 3 #exponential (power)
+```
+
+Type of numbers in python:
+- integers: whole numbers
+- floating-point numbers: numbers with a decimal point.
+
+Expressions: A collection of operators and numbers.
+```python
+(2 + 3) ** 4
+```
+
+python follows the order of operations in arithmetic: exponentiation, multiplication, division, addition, subtraction.
+
+### Arithmetic functions:
+```python
+round(8.7) #takes a floating-point number and round it off to the nearest whole number
+>> result: 9
+
+abs(48) #compute the absolute value of a number
+```
+
+When we use functions in programming, we say we are **call** function. and the expression we use is a **function call**. When calling a function, parentheses is necessary. 
+
+`SyntaxError`: means there is a problem with the structure of an expression.
+
+### String:
+sequence of letters:
+```python
+'hello'
+"hello"
+"hello's"
+```
+
+Concatenation: using `+` to add two strings together:
+```python
+'hello' + 'world' + 'and' + "beyond's"
+```
+
+Using `*` (multiplication operator) also works with strings, it makes copies of a string and concatenate them: 
+```python
+'hello' * 4
+>> result: 'hello hello hello hello'
+```
+
+Other arithmetic operators don't work with string.
+
+```python
+len('hello') #a function that computes the lenght of s string
+```
+
+### Values and types:
+ 
+ kind of value is called a type. Every value has a type—or we sometimes say it “belongs to” a type.
+
+list of python types:
+- int
+- float
+- string
+
+```python
+type(2) #a function to return the type of any value.
+>> result: int
+
+type(4.5)
+>> result: float
+```
+
+the types `int`, `float` and `str` can be used as functions:
+```python
+int(2.0) #a function to return integer
+>> result: 2
+
+int('123') #a function to return integer
+>> result: 123
+
+float(42) #a function to return floating point
+>> result: 42.0
+
+str(42) #a function to return string
+>> result: '42'
+```
+
+Note:
+```python
+type(123)
+>> result: int
+
+type('123')
+>> result: str
+
+123 + '123'
+>> result: TypeError
+```
+
+`TypeError`: the value in the expression (called operands), have the wrong type.
+
+```python
+1,000,000
+>> result: (1, 0, 0)
+
+1_000_000
+>> result: 1000000
+```
