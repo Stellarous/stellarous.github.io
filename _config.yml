@@ -7,43 +7,19 @@
 
 # Site settings
 title: Stellarous (Ali Barmaki)
-email: your-email@domain.com
+email: alibarmaki7@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://stellarous.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-#github_username:  jekyll
+twitter_username: ali_barmaki
+github_username:  stellarous
 
-remote_theme: daviddarnes/alembic
+theme: minima
 plugins:
-        - jekyll-remote-theme
-        - jekyll-seo-tag
-        - jekyll-sitemap
-
-# Alembic-specific settings
-collections:
-        posts:
-                output: true
-                sort_by: date
-                sort_order: descending
-
-defaults:
-        - scopre:
-                path: ""
-                type: posts
-                values:
-                        layout: post
-                        read_time: true
-
-# Social links (customize these)
-social:
-        - name: Github
-          icon: github
-          url: https://github.com/stellarous
-
+        - jekyll-feed
 
 # Build settings
 markdown: kramdown
