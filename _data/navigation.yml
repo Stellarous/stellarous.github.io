@@ -1,8 +1,0 @@
-- name: Home
-  url: /
-- name: Blog
-  url: /blog/
-- name: Resume
-  url: /assets/pdfs/resume.pdf
-- name: About
-  url: /about/
